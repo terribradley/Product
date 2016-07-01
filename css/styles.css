@@ -64,9 +64,14 @@ font-size: 1em;
   float: left;
   position: relative;
 }
+.images:after {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  content: "Click images to see details";
+  padding-left: 20px;
+}
 .selection-button-container {
   width: 500px;
-  height: 200px;
+  height: 170px;
   margin: 0
 }
 .selection-button1 {
