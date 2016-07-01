@@ -20,5 +20,66 @@ li {
 .header {
   text-align: center;
   height: 100px;;
+}
+.content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.images {
+  width: 500px;
+  height: 900px;
+  margin: 0;
+  float: left;
+  /*position: relative;
+  overflow: auto;*/
+}
+.selection-button-container {
+  width: 500px;
+	height: 60px;
+  margin: 0
+}
 
+.section-button1 {
+	/*width: 150px;
+	height: 100px;*/
+	float: left;
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.section-button2 {
+  /*width: 150px;
+	height: 100px;*/
+	float: left;
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.section-button3 {
+  /*width: 150px;
+  height: 100px;*/
+  float: left;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.img-container {
+  background-image: url(../img/flat-coat.jpg);
+  background-position: center center;
+  width: 500px;
+  height: 900px;
+  margin: 0;
+}
+.selection-button-container label {
+    display: inline;
+    width: 20px;
+    cursor: pointer;
+}
+input[type=radio],
+input[type=radio] + img {
+    display: none;
+}
+input:checked + img {
+    display: block;
 }
