@@ -1,6 +1,6 @@
 # _Racheal Homely_
 
-#### _Product page for String Sand raincoat_
+#### _Product page for Strong Sand raincoat_
 
 #### By _**Terri Bradley**_
 
