@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Montserrat);
 
 *,
 *::before,
@@ -22,6 +22,7 @@ li {
   padding-left: 15px;
   margin-left: 20px;
   margin-right: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 .header {
   text-align: center;
@@ -33,12 +34,14 @@ li {
   padding-top: 10px;
   padding-bottom: 20px;
   font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
 }
 .nav {
   background-color: white;
 }
 .content {
   width: 80%;
+  margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -56,17 +59,15 @@ font-size: 1em;
 .images {
   width: 500px;
   height: 900px;
-  margin: 0 20px 0 0;
+  margin: 10 20px 0 0;
   float: left;
-  /*position: relative;
-  overflow: auto;*/
+  position: relative;
 }
 .selection-button-container {
   width: 500px;
   height: 200px;
   margin: 0
 }
-
 .selection-button1 {
 	width: 150px;
 	float: left;
@@ -89,7 +90,7 @@ font-size: 1em;
   margin-right: 0;
 }
 .img-container {
-  background-image: url(../img/flat-coat.jpg);
+  background-image: url(../img/front-coat.jpg);
   background-position: center center;
   width: 500px;
   height: 900px;
@@ -97,7 +98,6 @@ font-size: 1em;
 }
 .selection-button-container label {
     display: inline;
-    /*width: 20px;*/
     cursor: pointer;
 }
 input[type=radio],
@@ -112,6 +112,9 @@ input:checked + img {
   width: 200px;
   margin-bottom: 60px;
   margin-left: 500px;
+}
+.show-sizeguide {
+  font-family: 'Montserrat', sans-serif;
 }
 .size-container:hover .show-sizeguide {
   visibility: visible;
@@ -146,7 +149,6 @@ td {
   text-align: right;
   color: #4d4d4d;
 }
-
 label {
   display: block;
   padding: 15px;
@@ -167,7 +169,6 @@ option {
   color: white;
 }
 select:focus {
-  /*border: 2px dotted red;*/
   outline: none;
 }
 button {
