@@ -149,6 +149,9 @@ tr {
 table tr:first-of-type:first-child {
   text-align: right;
 }
+table tr th:nth-of-type(1) {
+  text-align: right;
+}
 td {
   text-align: right;
   color: #4d4d4d;
